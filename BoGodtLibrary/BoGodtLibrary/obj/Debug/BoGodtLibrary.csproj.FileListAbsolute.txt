@@ -1,0 +1,6 @@
+C:\Users\benj6414\source\repos\BoGodtLibrary\BoGodtLibrary\bin\Debug\BoGodtLibrary.dll
+C:\Users\benj6414\source\repos\BoGodtLibrary\BoGodtLibrary\bin\Debug\BoGodtLibrary.pdb
+C:\Users\benj6414\source\repos\BoGodtLibrary\BoGodtLibrary\obj\Debug\BoGodtLibrary.csprojAssemblyReference.cache
+C:\Users\benj6414\source\repos\BoGodtLibrary\BoGodtLibrary\obj\Debug\BoGodtLibrary.csproj.CoreCompileInputs.cache
+C:\Users\benj6414\source\repos\BoGodtLibrary\BoGodtLibrary\obj\Debug\BoGodtLibrary.dll
+C:\Users\benj6414\source\repos\BoGodtLibrary\BoGodtLibrary\obj\Debug\BoGodtLibrary.pdb
