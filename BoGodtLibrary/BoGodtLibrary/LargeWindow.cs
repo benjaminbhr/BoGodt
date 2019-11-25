@@ -22,5 +22,9 @@ namespace BoGodtLibrary
         {
             return false;
         }
+        bool IMasterWindow.IsWindowBroken()
+        {
+            return false;
+        }
     }
 }

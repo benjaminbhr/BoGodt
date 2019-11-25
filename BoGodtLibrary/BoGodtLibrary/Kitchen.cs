@@ -16,7 +16,7 @@ namespace BoGodtLibrary
         {
             return true;
         }
-        public List<IMasterWindow> windows = new List<IMasterWindow>();
+
     }
 
 }

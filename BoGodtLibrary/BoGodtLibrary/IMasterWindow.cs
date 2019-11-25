@@ -11,5 +11,6 @@ namespace BoGodtLibrary
         EWindowType GetWindowType();
         bool CanWindowOpen();
         bool IsWindowFrosted();
+        bool IsWindowBroken();
     }
 }

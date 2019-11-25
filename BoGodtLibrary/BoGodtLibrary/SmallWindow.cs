@@ -17,10 +17,13 @@ namespace BoGodtLibrary
         {
             return EWindowType.Small;
         }
-
         bool IMasterWindow.IsWindowFrosted()
         {
-            return false;
+            return true;
+        }
+        bool IMasterWindow.IsWindowBroken()
+        {
+            return true;
         }
     }
 }
