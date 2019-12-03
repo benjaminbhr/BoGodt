@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FB16970F-F527-4CFC-A56B-9406C93C3CD5}</ProjectGuid>
+    <ProjectGuid>{A810D10E-86DD-43AD-8706-963B1FFB2D04}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BoGodtLibrary</RootNamespace>
@@ -41,16 +41,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="WindowMaterialEnum.cs" />
     <Compile Include="IEntrance.cs" />
+=======
+    <Compile Include="BackDoor.cs" />
+    <Compile Include="Bathroom.cs" />
+    <Compile Include="BathroomWindow.cs" />
+    <Compile Include="DoorTypeEnum.cs" />
+    <Compile Include="FloorTypeEnum.cs" />
+>>>>>>> 7b4f59a51c1df85518639de6d13c37393de7dde9
     <Compile Include="IMasterRoom.cs" />
-    <Compile Include="IMasterWindow.cs" />
+    <Compile Include="RoomDoor.cs" />
+    <Compile Include="RoomTypeEnum.cs" />
+    <Compile Include="FrontDoor.cs" />
     <Compile Include="Kitchen.cs" />
+    <Compile Include="LargeWindow.cs" />
+    <Compile Include="MasterBathroom.cs" />
+    <Compile Include="MasterDoor.cs" />
+    <Compile Include="MasterEntrance.cs" />
     <Compile Include="MasterRoom.cs" />
     <Compile Include="MasterWindow.cs" />
-    <Compile Include="LargeWindow.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoomTypeEnum.cs" />
     <Compile Include="MediumWindow.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SmallWindow.cs" />
     <Compile Include="WindowTypeEnum.cs" />
   </ItemGroup>
