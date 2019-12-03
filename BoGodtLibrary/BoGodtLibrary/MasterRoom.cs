@@ -15,6 +15,5 @@ namespace BoGodtLibrary
         {
             return windows;
         }
-
     }
 }
