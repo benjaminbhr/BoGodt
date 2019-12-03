@@ -1,0 +1,5 @@
+C:\Users\mort286f\source\repos\BoGodtLibrary\BoGodtLibrary\bin\Debug\BoGodtLibrary.dll
+C:\Users\mort286f\source\repos\BoGodtLibrary\BoGodtLibrary\bin\Debug\BoGodtLibrary.pdb
+C:\Users\mort286f\source\repos\BoGodtLibrary\BoGodtLibrary\obj\Debug\BoGodtLibrary.csprojAssemblyReference.cache
+C:\Users\mort286f\source\repos\BoGodtLibrary\BoGodtLibrary\obj\Debug\BoGodtLibrary.dll
+C:\Users\mort286f\source\repos\BoGodtLibrary\BoGodtLibrary\obj\Debug\BoGodtLibrary.pdb
