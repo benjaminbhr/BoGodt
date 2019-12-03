@@ -41,11 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <Compile Include="WindowMaterialEnum.cs" />
+    <Compile Include="IEntrance.cs" />
+=======
+=======
+>>>>>>> 7b4f59a51c1df85518639de6d13c37393de7dde9
     <Compile Include="BackDoor.cs" />
     <Compile Include="Bathroom.cs" />
     <Compile Include="BathroomWindow.cs" />
     <Compile Include="DoorTypeEnum.cs" />
     <Compile Include="FloorTypeEnum.cs" />
+<<<<<<< HEAD
+>>>>>>> 7b4f59a51c1df85518639de6d13c37393de7dde9
+=======
+>>>>>>> 7b4f59a51c1df85518639de6d13c37393de7dde9
     <Compile Include="IMasterRoom.cs" />
     <Compile Include="RoomDoor.cs" />
     <Compile Include="RoomTypeEnum.cs" />
