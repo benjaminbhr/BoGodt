@@ -9,8 +9,7 @@ namespace BoGodtLibrary
     public interface IMasterWindow
     {
         EWindowType GetWindowType();
-        bool CanWindowOpen();
-        bool IsWindowFrosted();
-        bool IsWindowBroken();
+        void CanWindowOpen(bool canwindowopen);
+        bool IsWindowFrosted(bool iswindowfrosted);
     }
 }

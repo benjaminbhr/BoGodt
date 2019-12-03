@@ -11,6 +11,5 @@ namespace BoGodtLibrary
         ERoomType GetRoomType();
         bool IsNew();
         List<IMasterWindow> GetWindows();
-        List<IMasterDoor> GetDoors();
     }
 }

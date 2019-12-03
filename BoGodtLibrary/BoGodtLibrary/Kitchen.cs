@@ -16,6 +16,23 @@ namespace BoGodtLibrary
         {
             return true;
         }
+        public void AddWindows()
+        {
+            if (MaxWindows >= 10)
+            {
+                throw new System.ArgumentException("Too many windows added!");
+            }
+            else
+            {
+                windows.Add(new SmallWindow());
+                
+                
+                MaxWindows++;
+            }
+        }
+
+        int MaxWindows = 0;
+
 
     }
 

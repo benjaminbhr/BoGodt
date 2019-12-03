@@ -8,23 +8,18 @@ namespace BoGodtLibrary
 {
     public class MediumWindow : IMasterWindow
     {
-        bool IMasterWindow.CanWindowOpen()
+        public void CanWindowOpen(bool canwindowopen)
         {
-            return true;
         }
 
-        EWindowType IMasterWindow.GetWindowType()
+        public EWindowType GetWindowType()
         {
             return EWindowType.Medium;
         }
 
-        bool IMasterWindow.IsWindowFrosted()
+        public bool IsWindowFrosted(bool iswindowfrosted)
         {
-            return false;
-        }
-        bool IMasterWindow.IsWindowBroken()
-        {
-            return false;
+            return iswindowfrosted;
         }
     }
 }

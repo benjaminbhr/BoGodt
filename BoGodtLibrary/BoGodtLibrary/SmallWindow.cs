@@ -8,22 +8,18 @@ namespace BoGodtLibrary
 {
     public class SmallWindow : IMasterWindow
     {
-        bool IMasterWindow.CanWindowOpen()
+        public void CanWindowOpen(bool canwindowopen)
         {
-            return true;
         }
 
-        EWindowType IMasterWindow.GetWindowType()
+        public EWindowType GetWindowType()
         {
             return EWindowType.Small;
         }
-        bool IMasterWindow.IsWindowFrosted()
+
+        public bool IsWindowFrosted(bool iswindowfrosted)
         {
-            return true;
-        }
-        bool IMasterWindow.IsWindowBroken()
-        {
-            return true;
+            return iswindowfrosted;
         }
     }
 }

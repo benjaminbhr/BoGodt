@@ -16,10 +16,5 @@ namespace BoGodtLibrary
             return windows;
         }
 
-        public List<IMasterDoor> doors = new List<IMasterDoor>();
-        public List<IMasterDoor> GetDoors()
-        {
-            return doors;
-        }
     }
 }

@@ -41,15 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Backdoor.cs" />
-    <Compile Include="Door.cs" />
-    <Compile Include="FrontDoor.cs" />
     <Compile Include="IEntrance.cs" />
-    <Compile Include="IMasterDoor.cs" />
     <Compile Include="IMasterRoom.cs" />
     <Compile Include="IMasterWindow.cs" />
     <Compile Include="Kitchen.cs" />
-    <Compile Include="MasterDoor.cs" />
     <Compile Include="MasterRoom.cs" />
     <Compile Include="MasterWindow.cs" />
     <Compile Include="LargeWindow.cs" />
