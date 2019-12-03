@@ -6,17 +6,13 @@ using System.Threading.Tasks;
 
 namespace BoGodtLibrary
 {
-    public class SmallWindow : MasterWindow
+    public class BathroomWindow : SmallWindow
     {
-        public override bool CanWindowOpen()
+        public override bool IsWindowFrosted()
         {
             return true;
         }
-        public override EWindowType GetWindowType()
-        {
-            return EWindowType.Small;
-        }
-        public override bool IsWindowFrosted()
+        public override bool CanWindowOpen()
         {
             return false;
         }

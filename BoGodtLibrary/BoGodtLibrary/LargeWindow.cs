@@ -8,18 +8,19 @@ namespace BoGodtLibrary
 {
     public class LargeWindow : IMasterWindow
     {
-        public void CanWindowOpen(bool canwindowopen)
+        bool IMasterWindow.CanWindowOpen()
         {
+            return true;
         }
 
-        public EWindowType GetWindowType()
+        EWindowType IMasterWindow.GetWindowType()
         {
             return EWindowType.Large;
         }
 
-        public bool IsWindowFrosted(bool iswindowfrosted)
+        bool IMasterWindow.IsWindowFrosted()
         {
-            return iswindowfrosted;
+            return false;
         }
     }
 }

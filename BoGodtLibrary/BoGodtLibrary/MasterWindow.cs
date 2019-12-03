@@ -8,8 +8,8 @@ namespace BoGodtLibrary
 {
     public abstract class MasterWindow : IMasterWindow
     {
-        public abstract void CanWindowOpen(bool canwindowopen);
-        public abstract bool IsWindowFrosted(bool iswindowfrosted);
+        public abstract bool CanWindowOpen();
+        public abstract bool IsWindowFrosted();
         public abstract EWindowType GetWindowType();
     }
 }

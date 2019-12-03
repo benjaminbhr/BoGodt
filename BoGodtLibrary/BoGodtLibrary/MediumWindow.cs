@@ -6,20 +6,21 @@ using System.Threading.Tasks;
 
 namespace BoGodtLibrary
 {
-    public class MediumWindow : IMasterWindow
+    public class MediumWindow : MasterWindow
     {
-        public void CanWindowOpen(bool canwindowopen)
+        public override bool CanWindowOpen()
         {
+            return true;
         }
 
-        public EWindowType GetWindowType()
+        public override EWindowType GetWindowType()
         {
             return EWindowType.Medium;
         }
 
-        public bool IsWindowFrosted(bool iswindowfrosted)
+        public override bool IsWindowFrosted()
         {
-            return iswindowfrosted;
+            return false;
         }
     }
 }

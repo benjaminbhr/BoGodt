@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BoGodtLibrary
 {
-    public class Kitchen : MasterRoom
+    public class Bathroom : MasterRoom
     {
         public override ERoomType GetRoomType()
         {
@@ -17,18 +17,5 @@ namespace BoGodtLibrary
             return true;
         }
         public List<IMasterWindow> windows = new List<IMasterWindow>();
-        public void AddWindows()
-        {
-            if (MaxWindows >= 1)
-            {
-                throw new Exception("Too many windows :(");
-            }
-            else
-            {
-                windows.Add(new SmallWindow());
-                MaxWindows++;
-            }
-        }
-        int MaxWindows = 0;
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BoGodtLibrary
 {
-    public abstract class MasterRoom:IMasterRoom
+    public abstract class MasterRoom : IMasterRoom
     {
         public abstract ERoomType GetRoomType();
         public abstract bool IsNew();
@@ -14,6 +14,11 @@ namespace BoGodtLibrary
         public List<IMasterWindow> GetWindows()
         {
             return windows;
+        }
+        public List<IMasterDoor> doors = new List<IMasterDoor>();
+        public List<IMasterDoor> GetDoors()
+        {
+            return doors;
         }
     }
 }
